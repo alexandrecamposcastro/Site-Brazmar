@@ -87,12 +87,17 @@ a:hover, a:focus{ text-decoration: inherit !important;}
 
 
 
-.blusec1{ width: 100%; background: url(../images/bg1.jpg) no-repeat center center; background-size:cover !important; padding: 30px 0; text-align: center;
-background-attachment: fixed;}
-.blusec1 .box{ width: 100%; padding: 18px 0 25px;}
-.blusec1 .box strong{ color: #ffffff; font: normal 40px/45px 'gilroyextrabold';}
-.blusec1 .col-md-3{ border-right: 1px solid #fff;}
-.blusec1 .col-md-3:last-child{ border: none;}
+.blusec1 {
+  width: 100%;
+  background: url(../images/bg1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0); /* força renderização mais nítida */
+  padding: 30px 0;
+  text-align: center;
+}
+
 
 
 .blusec2{ background: url(../images/bg2.jpg) no-repeat center center; margin-top: 25px; background-attachment: fixed;}

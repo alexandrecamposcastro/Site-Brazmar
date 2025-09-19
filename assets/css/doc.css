@@ -89,14 +89,16 @@ a:hover, a:focus{ text-decoration: inherit !important;}
 
 .blusec1 {
   width: 100%;
-  background: url(../images/bg1.jpg) no-repeat center center;
+  background: url(../images/teamBg1.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
-  -webkit-backface-visibility: hidden;
-  transform: translateZ(0); /* força renderização mais nítida */
   padding: 30px 0;
   text-align: center;
+
+  /* efeito parallax alternativo */
+  background-attachment: fixed;
+  background-position: center center;
 }
+
 
 
 
